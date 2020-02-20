@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+form{
+  text-align: center;
+  margin-top: 200px;
+}
+p{
+  text-align: center;
+  margin-top: 200px;
+}
+body{
+/* background-color: #5C5C68 */
+background-image: url("nightSky.jpeg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.left{
+  height: 575px;
+  width: 33.3333%;
+  float: left;
+  /* background-image: url(nightSky.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+.middle{
+
+  width: 33.3333%;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.right{
+  height: 575px;
+  width: 33.3333%;
+  float: left;
+  /* background-image: url(nightSky.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+#date{
+  font-size: 20px;
+}
+#zodiac{
+  font-size: 20px;
+}
+label{
+  font-size: 20px;
+}
+button{
+  font-size: 20px;
+}
+p{
+  font-size: 50px;
+}
+
+@media only screen and (max-width:1000px){
+form{
+  margin-top: 100px;
+}
+  .middle{
+  width: 100%;
+  margin-top: -600px;
+}
+}
