@@ -6,4 +6,4 @@ This is zodiac based horoscope that allows users to receive a reading based on t
 
 https://zikrehoroscope.netlify.com/
 
-![zikre's horoscope](images/gitHoro.png)
+![zikre's horoscope](image/gitHoro.png)
